@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.container{
+  width: 375px;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 127px;
+  height: 60px;
+  margin: 10px 15px;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  margin-top: 10px;
+  margin: 25px 15px;
+}
+
+.client.info {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.client-avatar {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  float: left;
+  margin-right: 7px;
+}
+
+.client-name{
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: start;
+  margin-top: 10px;
+}
+
+.client-location {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+nav{
+  text-align: start;
+
+}
+
+.heart,
+.icon-comment,
+.dm{
+  width: 24px;
+  height: 24px;
+}
+
+.likes {
+  text-align: start;
+  font-weight: 700;
+}
+
+.comment {
+  text-align: start;
+}
+
+span{
+  font-weight: 700;
+}

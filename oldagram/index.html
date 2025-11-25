@@ -2,28 +2,31 @@
 <html lang="en">
   <head>
     <title>oldagram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <header>
+    <header class="container">
       <img class="logo" src="./images/logo.png">
       <img class="user-avatar" src="./images/user-avatar.png">
-      <hr>
     </header>
+    <hr class="container">
     <main>
-      <section>
-        <img class="client-avatar"src="./images/avatar-vangogh.jpg">
+      <section class="container client-info">
+        <img class="client-avatar" src="./images/avatar-vangogh.jpg">
         <h1 class="client-name">Vincent van Gogh</h1>
         <p class="client-location">Zundert, Netherlands</p>
       </section>
-      <img class="client-post"src="./images/post-vangogh.jpg">
-      <nav>
-        <img src="./images/icon-heart.png">
-        <img src="./images/icon-comment.png">
-        <img src="./images/icon-dm.png">
+      <img class="container client-post"src="./images/post-vangogh.jpg">
+      <nav class="container">
+        <img class="heart" src="./images/icon-heart.png">
+        <img class="icon-comment" src="./images/icon-comment.png">
+        <img class="dm" src="./images/icon-dm.png">
       </nav>
-      <p class="likes">21 likes</p>
-      <p class="commet"><span>vincey1853</span> took a few mushrooms lol</p>
+      <p class="container likes">21 likes</p>
+      <p class="container comment"><span>vincey1853</span> took a few mushrooms lol</p>
     </main>
     <script src="index.js"></script>
     <div id="app"></div>
