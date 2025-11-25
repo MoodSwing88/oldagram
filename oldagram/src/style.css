@@ -71,6 +71,12 @@ nav{
   height: 24px;
 }
 
+.heart:hover,
+.icon-comment:hover,
+.dm:hover{
+  opacity: 50%;
+}
+
 .likes {
   text-align: start;
   font-weight: 700;
